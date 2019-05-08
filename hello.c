@@ -1,8 +1,15 @@
 #include <stdio.h>
 
-int main() {
+/* multiline
+   comment */
 
-	printf("Hello!");
+int main() {
+	int n;
+	scanf("%d", &n); // Line comment
+
+	int i;
+	for (i = 0; i < n; i++)
+		printf("Hello!");
 	
 	return 0;
 }
